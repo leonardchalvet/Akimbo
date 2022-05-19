@@ -8,6 +8,11 @@
     .header-logowhite{
         mix-blend-mode: difference;
     }
+    .header-dropdown_el{
+        &:hover{
+            color: #f43b00 !important;
+        }
+    }
 
     &.style-scroll,
     &.style-white {
@@ -32,9 +37,6 @@
         }
         .header-dropdown_el{
             color: #000;
-            &:hover{
-                color: #f43b00 !important;
-            }
         }
     }
 }
